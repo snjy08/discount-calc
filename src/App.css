@@ -1,0 +1,61 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 769px) {
+    .container {
+        max-width: 50%;
+        max-height: 50%;
+    }
+
+    .form {
+        padding: 10px;
+    }
+
+    .button {
+        width: 300px;
+        align-items: center;
+        margin-top: 25px;
+       font-size: 10px
+
+
+    }
+   
+
+    #butt {
+        margin-left: 10px;
+        margin-right: 200px;
+        font-size: 10px;
+     
+    }
+    #bott{
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 26px;
+
+    }
+    h2{
+        font-size: 20px;
+    }
+
+    .input {
+        margin-top: 5px;
+
+        height: 50px;
+        padding-bottom: 60px;
+
+
+    }
+    .total{
+        height: 50px;
+    }
+    .saved{
+        height: 50px;
+        margin-top: 30px;
+    }
+  
+   
+}
